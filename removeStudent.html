@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Remove Student</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-top: 40px;
+}
+
+.box {
+    width: 320px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+}
+
+input {
+    width: 75%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    width: 80%;
+    background: #0072ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #0072ff;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Search & Remove Student</h2>
+
+<div class="box">
+<form action="RemoveServlet" method="post">
+    <input type="text" name="roll" placeholder="Enter Roll No">
+    <input type="submit" value="Search">
+</form>
+
+<a href="index.html"> Back</a>
+</div>
+
+</body>
+</html>
